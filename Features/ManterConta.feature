@@ -9,6 +9,7 @@ Seguindo as seguintes restrições:
 Contexto: Acessa a pagina inicial
       Dado Dado que o usuario realize a autenticacao no sistema
    
+@tc:57
    	Cenario: 01) Adicionar Conta - Validar campos obrigatorios
 	  E E que o usuario acesse a tela de adicionar conta
    	  E E que o usuario informe os dados necessarios para criacao da conta
@@ -16,18 +17,21 @@ Contexto: Acessa a pagina inicial
       |      |
       Entao Entao o usuario e informado que campos obrigatorios nao foram preenchidos na inclusao
    
+@tc:58
     Cenario: 02) Adicionar Conta - Validar conta ja cadastrada
       E E que o usuario acesse a tela de adicionar conta
    	  E E que o usuario informe os dados necessarios para criacao da conta
       | nome             |
       | Conta mesmo nome |
       Entao Entao o usuario e informado que ja existe uma conta cadastrada com o mesmo nome na inclusao
-      
+    
+@tc:59
    	Cenario: 03) Adicionar conta
 	  E E que o usuario acesse a tela de adicionar conta
    	  E E que o usuario informe os dados necessarios para criacao da conta
       Entao Entao o usuario e informado que foi realizada a inclusao da conta com sucesso
 
+@tc:60
 	Cenario: 04) Alterar Conta - Validar campos obrigatorios
 	  E E que o usuario acesse a tela de listar conta
 	  E E que o usuario acesse a tela de alterar conta
@@ -36,6 +40,7 @@ Contexto: Acessa a pagina inicial
       |      |
       Entao Entao o usuario e informado que campos obrigatorios nao foram preenchidos na alteracao
    
+@tc:61
     Cenario: 05) Alterar Conta - Validar conta ja cadastrada
       E E que o usuario acesse a tela de listar conta
 	  E E que o usuario acesse a tela de alterar conta
@@ -44,17 +49,20 @@ Contexto: Acessa a pagina inicial
       | Conta mesmo nome |
       Entao Entao o usuario e informado que ja existe uma conta cadastrada com o mesmo nome na alteracao
       
+@tc:62
    	Cenario: 06) Alterar conta
 	  E E que o usuario acesse a tela de listar conta
 	  E E que o usuario acesse a tela de alterar conta
    	  E E que o usuario informe os dados necessarios para alteracao da conta
       Entao Entao o usuario e informado que foi realizada a alteracao da conta com sucesso
 
+@tc:63
 	Cenario: 07) Excluir conta - Validar exclusao de conta com movimentacao
 	  E E que o usuario acesse a tela de listar conta
    	  E E que o usuario solicite a exclusao da conta com movimentacao
       Entao Entao o usuario e informado que nao pode excluir conta com movimentacao
 
+@tc:64
 	Cenario: 08) Excluir conta
 	  E E que o usuario acesse a tela de listar conta
 	  E E que o usuario solicite a exclusao da conta
