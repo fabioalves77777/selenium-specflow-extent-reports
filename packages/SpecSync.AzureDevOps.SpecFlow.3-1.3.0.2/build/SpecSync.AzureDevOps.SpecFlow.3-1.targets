@@ -1,0 +1,7 @@
+﻿<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_SpecSyncSpecFlow_GeneratorPlugin Condition=" '$(MSBuildRuntimeType)' == 'Core'">netstandard2.0</_SpecSyncSpecFlow_GeneratorPlugin>
+    <_SpecSyncSpecFlow_GeneratorPlugin Condition=" '$(MSBuildRuntimeType)' != 'Core'">net471</_SpecSyncSpecFlow_GeneratorPlugin>
+    <_SpecSyncSpecFlow_GeneratorPluginPath>$(MSBuildThisFileDirectory)$(_SpecSyncSpecFlow_GeneratorPlugin)\SpecSync.AzureDevOps.SpecFlowPlugin.dll</_SpecSyncSpecFlow_GeneratorPluginPath>
+  </PropertyGroup>
+</Project>

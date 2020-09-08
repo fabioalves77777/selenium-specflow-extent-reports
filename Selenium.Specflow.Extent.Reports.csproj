@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\SpecSync.AzureDevOps.SpecFlow.3-1.3.0.2\build\SpecSync.AzureDevOps.SpecFlow.3-1.props" Condition="Exists('packages\SpecSync.AzureDevOps.SpecFlow.3-1.3.0.2\build\SpecSync.AzureDevOps.SpecFlow.3-1.props')" />
   <Import Project="packages\SpecFlow.Tools.MsBuild.Generation.3.1.76\build\SpecFlow.Tools.MsBuild.Generation.props" Condition="Exists('packages\SpecFlow.Tools.MsBuild.Generation.3.1.76\build\SpecFlow.Tools.MsBuild.Generation.props')" />
   <Import Project="packages\NUnit3TestAdapter.3.16.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('packages\NUnit3TestAdapter.3.16.0\build\net35\NUnit3TestAdapter.props')" />
   <Import Project="packages\Microsoft.NET.Test.Sdk.16.4.0\build\net40\Microsoft.NET.Test.Sdk.props" Condition="Exists('packages\Microsoft.NET.Test.Sdk.16.4.0\build\net40\Microsoft.NET.Test.Sdk.props')" />
@@ -255,6 +256,8 @@
     <Error Condition="!Exists('packages\NUnit3TestAdapter.3.16.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\NUnit3TestAdapter.3.16.0\build\net35\NUnit3TestAdapter.props'))" />
     <Error Condition="!Exists('packages\SpecFlow.Tools.MsBuild.Generation.3.1.76\build\SpecFlow.Tools.MsBuild.Generation.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\SpecFlow.Tools.MsBuild.Generation.3.1.76\build\SpecFlow.Tools.MsBuild.Generation.props'))" />
     <Error Condition="!Exists('packages\SpecFlow.Tools.MsBuild.Generation.3.1.76\build\SpecFlow.Tools.MsBuild.Generation.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\SpecFlow.Tools.MsBuild.Generation.3.1.76\build\SpecFlow.Tools.MsBuild.Generation.targets'))" />
+    <Error Condition="!Exists('packages\SpecSync.AzureDevOps.SpecFlow.3-1.3.0.2\build\SpecSync.AzureDevOps.SpecFlow.3-1.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\SpecSync.AzureDevOps.SpecFlow.3-1.3.0.2\build\SpecSync.AzureDevOps.SpecFlow.3-1.props'))" />
+    <Error Condition="!Exists('packages\SpecSync.AzureDevOps.SpecFlow.3-1.3.0.2\build\SpecSync.AzureDevOps.SpecFlow.3-1.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\SpecSync.AzureDevOps.SpecFlow.3-1.3.0.2\build\SpecSync.AzureDevOps.SpecFlow.3-1.targets'))" />
   </Target>
   <Import Project="packages\Selenium.WebDriver.ChromeDriver.79.0.3945.3600\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('packages\Selenium.WebDriver.ChromeDriver.79.0.3945.3600\build\Selenium.WebDriver.ChromeDriver.targets')" />
   <Import Project="packages\Selenium.WebDriver.IEDriver.3.150.1\build\Selenium.WebDriver.IEDriver.targets" Condition="Exists('packages\Selenium.WebDriver.IEDriver.3.150.1\build\Selenium.WebDriver.IEDriver.targets')" />
@@ -264,4 +267,5 @@
   <Import Project="packages\Microsoft.CodeCoverage.16.4.0\build\netstandard1.0\Microsoft.CodeCoverage.targets" Condition="Exists('packages\Microsoft.CodeCoverage.16.4.0\build\netstandard1.0\Microsoft.CodeCoverage.targets')" />
   <Import Project="packages\Microsoft.NET.Test.Sdk.16.4.0\build\net40\Microsoft.NET.Test.Sdk.targets" Condition="Exists('packages\Microsoft.NET.Test.Sdk.16.4.0\build\net40\Microsoft.NET.Test.Sdk.targets')" />
   <Import Project="packages\SpecFlow.Tools.MsBuild.Generation.3.1.76\build\SpecFlow.Tools.MsBuild.Generation.targets" Condition="Exists('packages\SpecFlow.Tools.MsBuild.Generation.3.1.76\build\SpecFlow.Tools.MsBuild.Generation.targets')" />
+  <Import Project="packages\SpecSync.AzureDevOps.SpecFlow.3-1.3.0.2\build\SpecSync.AzureDevOps.SpecFlow.3-1.targets" Condition="Exists('packages\SpecSync.AzureDevOps.SpecFlow.3-1.3.0.2\build\SpecSync.AzureDevOps.SpecFlow.3-1.targets')" />
 </Project>
