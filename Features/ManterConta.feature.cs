@@ -90,11 +90,14 @@ Seguindo as seguintes restrições:
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("01) Adicionar Conta - Validar campos obrigatorios")]
+        [NUnit.Framework.CategoryAttribute("tc:57")]
         public virtual void _01AdicionarConta_ValidarCamposObrigatorios()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01) Adicionar Conta - Validar campos obrigatorios", null, ((string[])(null)));
-#line 12
+            string[] tagsOfScenario = new string[] {
+                    "tc:57"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01) Adicionar Conta - Validar campos obrigatorios", null, new string[] {
+                        "tc:57"});
+#line 13
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -117,17 +120,17 @@ Seguindo as seguintes restrições:
 #line 9
 this.FeatureBackground();
 #line hidden
-#line 13
+#line 14
    testRunner.And("E que o usuario acesse a tela de adicionar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
                 TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                             "nome"});
                 table3.AddRow(new string[] {
                             ""});
-#line 14
+#line 15
       testRunner.And("E que o usuario informe os dados necessarios para criacao da conta", ((string)(null)), table3, "E ");
 #line hidden
-#line 17
+#line 18
       testRunner.Then("Entao o usuario e informado que campos obrigatorios nao foram preenchidos na incl" +
                         "usao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
@@ -137,11 +140,14 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("02) Adicionar Conta - Validar conta ja cadastrada")]
+        [NUnit.Framework.CategoryAttribute("tc:58")]
         public virtual void _02AdicionarConta_ValidarContaJaCadastrada()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02) Adicionar Conta - Validar conta ja cadastrada", null, ((string[])(null)));
-#line 19
+            string[] tagsOfScenario = new string[] {
+                    "tc:58"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02) Adicionar Conta - Validar conta ja cadastrada", null, new string[] {
+                        "tc:58"});
+#line 21
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -164,17 +170,17 @@ this.FeatureBackground();
 #line 9
 this.FeatureBackground();
 #line hidden
-#line 20
+#line 22
       testRunner.And("E que o usuario acesse a tela de adicionar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
                 TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "nome"});
                 table4.AddRow(new string[] {
                             "Conta mesmo nome"});
-#line 21
+#line 23
       testRunner.And("E que o usuario informe os dados necessarios para criacao da conta", ((string)(null)), table4, "E ");
 #line hidden
-#line 24
+#line 26
       testRunner.Then("Entao o usuario e informado que ja existe uma conta cadastrada com o mesmo nome n" +
                         "a inclusao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
@@ -184,11 +190,14 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("03) Adicionar conta")]
+        [NUnit.Framework.CategoryAttribute("tc:59")]
         public virtual void _03AdicionarConta()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03) Adicionar conta", null, ((string[])(null)));
-#line 26
+            string[] tagsOfScenario = new string[] {
+                    "tc:59"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03) Adicionar conta", null, new string[] {
+                        "tc:59"});
+#line 29
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -211,13 +220,13 @@ this.FeatureBackground();
 #line 9
 this.FeatureBackground();
 #line hidden
-#line 27
+#line 30
    testRunner.And("E que o usuario acesse a tela de adicionar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 28
+#line 31
       testRunner.And("E que o usuario informe os dados necessarios para criacao da conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 29
+#line 32
       testRunner.Then("Entao o usuario e informado que foi realizada a inclusao da conta com sucesso", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }
@@ -226,11 +235,14 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("04) Alterar Conta - Validar campos obrigatorios")]
+        [NUnit.Framework.CategoryAttribute("tc:60")]
         public virtual void _04AlterarConta_ValidarCamposObrigatorios()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("04) Alterar Conta - Validar campos obrigatorios", null, ((string[])(null)));
-#line 31
+            string[] tagsOfScenario = new string[] {
+                    "tc:60"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("04) Alterar Conta - Validar campos obrigatorios", null, new string[] {
+                        "tc:60"});
+#line 35
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -253,20 +265,20 @@ this.FeatureBackground();
 #line 9
 this.FeatureBackground();
 #line hidden
-#line 32
+#line 36
    testRunner.And("E que o usuario acesse a tela de listar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 33
+#line 37
    testRunner.And("E que o usuario acesse a tela de alterar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
                 TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                             "nome"});
                 table5.AddRow(new string[] {
                             ""});
-#line 34
+#line 38
       testRunner.And("E que o usuario informe os dados necessarios para alteracao da conta", ((string)(null)), table5, "E ");
 #line hidden
-#line 37
+#line 41
       testRunner.Then("Entao o usuario e informado que campos obrigatorios nao foram preenchidos na alte" +
                         "racao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
@@ -276,11 +288,14 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("05) Alterar Conta - Validar conta ja cadastrada")]
+        [NUnit.Framework.CategoryAttribute("tc:61")]
         public virtual void _05AlterarConta_ValidarContaJaCadastrada()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("05) Alterar Conta - Validar conta ja cadastrada", null, ((string[])(null)));
-#line 39
+            string[] tagsOfScenario = new string[] {
+                    "tc:61"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("05) Alterar Conta - Validar conta ja cadastrada", null, new string[] {
+                        "tc:61"});
+#line 44
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -303,20 +318,20 @@ this.FeatureBackground();
 #line 9
 this.FeatureBackground();
 #line hidden
-#line 40
+#line 45
       testRunner.And("E que o usuario acesse a tela de listar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 41
+#line 46
    testRunner.And("E que o usuario acesse a tela de alterar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
                 TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                             "nome"});
                 table6.AddRow(new string[] {
                             "Conta mesmo nome"});
-#line 42
+#line 47
       testRunner.And("E que o usuario informe os dados necessarios para alteracao da conta", ((string)(null)), table6, "E ");
 #line hidden
-#line 45
+#line 50
       testRunner.Then("Entao o usuario e informado que ja existe uma conta cadastrada com o mesmo nome n" +
                         "a alteracao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
@@ -326,57 +341,15 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("06) Alterar conta")]
+        [NUnit.Framework.CategoryAttribute("tc:62")]
         public virtual void _06AlterarConta()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("06) Alterar conta", null, ((string[])(null)));
-#line 47
-    this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            bool isScenarioIgnored = default(bool);
-            bool isFeatureIgnored = default(bool);
-            if ((tagsOfScenario != null))
-            {
-                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
-            }
-            if ((this._featureTags != null))
-            {
-                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
-            }
-            if ((isScenarioIgnored || isFeatureIgnored))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
-#line 9
-this.FeatureBackground();
-#line hidden
-#line 48
-   testRunner.And("E que o usuario acesse a tela de listar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
-#line hidden
-#line 49
-   testRunner.And("E que o usuario acesse a tela de alterar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
-#line hidden
-#line 50
-      testRunner.And("E que o usuario informe os dados necessarios para alteracao da conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
-#line hidden
-#line 51
-      testRunner.Then("Entao o usuario e informado que foi realizada a alteracao da conta com sucesso", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
-#line hidden
-            }
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("07) Excluir conta - Validar exclusao de conta com movimentacao")]
-        public virtual void _07ExcluirConta_ValidarExclusaoDeContaComMovimentacao()
-        {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("07) Excluir conta - Validar exclusao de conta com movimentacao", null, ((string[])(null)));
+            string[] tagsOfScenario = new string[] {
+                    "tc:62"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("06) Alterar conta", null, new string[] {
+                        "tc:62"});
 #line 53
- this.ScenarioInitialize(scenarioInfo);
+    this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -402,22 +375,28 @@ this.FeatureBackground();
    testRunner.And("E que o usuario acesse a tela de listar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
 #line 55
-      testRunner.And("E que o usuario solicite a exclusao da conta com movimentacao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+   testRunner.And("E que o usuario acesse a tela de alterar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
 #line 56
-      testRunner.Then("Entao o usuario e informado que nao pode excluir conta com movimentacao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
+      testRunner.And("E que o usuario informe os dados necessarios para alteracao da conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+#line hidden
+#line 57
+      testRunner.Then("Entao o usuario e informado que foi realizada a alteracao da conta com sucesso", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("08) Excluir conta")]
-        public virtual void _08ExcluirConta()
+        [NUnit.Framework.DescriptionAttribute("07) Excluir conta - Validar exclusao de conta com movimentacao")]
+        [NUnit.Framework.CategoryAttribute("tc:63")]
+        public virtual void _07ExcluirConta_ValidarExclusaoDeContaComMovimentacao()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("08) Excluir conta", null, ((string[])(null)));
-#line 58
+            string[] tagsOfScenario = new string[] {
+                    "tc:63"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("07) Excluir conta - Validar exclusao de conta com movimentacao", null, new string[] {
+                        "tc:63"});
+#line 60
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -440,13 +419,58 @@ this.FeatureBackground();
 #line 9
 this.FeatureBackground();
 #line hidden
-#line 59
+#line 61
    testRunner.And("E que o usuario acesse a tela de listar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 60
+#line 62
+      testRunner.And("E que o usuario solicite a exclusao da conta com movimentacao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+#line hidden
+#line 63
+      testRunner.Then("Entao o usuario e informado que nao pode excluir conta com movimentacao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("08) Excluir conta")]
+        [NUnit.Framework.CategoryAttribute("tc:64")]
+        public virtual void _08ExcluirConta()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "tc:64"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("08) Excluir conta", null, new string[] {
+                        "tc:64"});
+#line 66
+ this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 9
+this.FeatureBackground();
+#line hidden
+#line 67
+   testRunner.And("E que o usuario acesse a tela de listar conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+#line hidden
+#line 68
    testRunner.And("E que o usuario solicite a exclusao da conta", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 61
+#line 69
       testRunner.Then("Entao o usuario e informado que foi realizada a exclusao da conta com sucesso", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }

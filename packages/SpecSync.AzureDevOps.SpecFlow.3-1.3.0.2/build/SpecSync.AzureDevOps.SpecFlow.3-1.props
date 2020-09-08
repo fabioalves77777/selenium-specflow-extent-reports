@@ -1,5 +1,0 @@
-﻿<Project TreatAsLocalProperty="TaskFolder;TaskAssembly">
-  <ItemGroup>
-    <SpecFlowGeneratorPlugins Include="$(_SpecSyncSpecFlow_GeneratorPluginPath)" />
-  </ItemGroup>
-</Project>

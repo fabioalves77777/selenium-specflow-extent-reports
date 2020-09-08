@@ -90,15 +90,22 @@ Seguindo as seguintes restrições:
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("01) Validar campos obrigatorios")]
+        [NUnit.Framework.CategoryAttribute("tc:54")]
         [NUnit.Framework.TestCaseAttribute("", "", "", null)]
         [NUnit.Framework.TestCaseAttribute("", "teste@naocadastrado.com", "123456", null)]
         [NUnit.Framework.TestCaseAttribute("naocadastrado", "", "123456", null)]
         [NUnit.Framework.TestCaseAttribute("naocadastrado", "teste@naocadastrado.com", "", null)]
         public virtual void _01ValidarCamposObrigatorios(string nome, string email, string senha, string[] exampleTags)
         {
-            string[] tagsOfScenario = exampleTags;
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01) Validar campos obrigatorios", null, exampleTags);
-#line 12
+            string[] @__tags = new string[] {
+                    "tc:54"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            string[] tagsOfScenario = @__tags;
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01) Validar campos obrigatorios", null, @__tags);
+#line 13
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -121,10 +128,10 @@ Seguindo as seguintes restrições:
 #line 9
 this.FeatureBackground();
 #line hidden
-#line 13
+#line 14
       testRunner.And(string.Format("E que o usuario informe os dados necessarios para cadastro \"{0}\" \"{1}\" \"{2}\"", nome, email, senha), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 14
+#line 15
       testRunner.Then(string.Format("Entao o usuario e informado que campos obrigatorios do cadastro nao foram preench" +
                             "idos \"{0}\" \"{1}\" \"{2}\"", nome, email, senha), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
@@ -134,11 +141,14 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("02) Validar e-mail ja cadastrado")]
+        [NUnit.Framework.CategoryAttribute("tc:55")]
         public virtual void _02ValidarE_MailJaCadastrado()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02) Validar e-mail ja cadastrado", null, ((string[])(null)));
-#line 22
+            string[] tagsOfScenario = new string[] {
+                    "tc:55"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02) Validar e-mail ja cadastrado", null, new string[] {
+                        "tc:55"});
+#line 24
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -169,10 +179,10 @@ this.FeatureBackground();
                             "Fabio Alves",
                             "fabioaraujo.alves@email.com",
                             "123456"});
-#line 23
+#line 25
       testRunner.And("E que o usuario informe os dados necessarios para cadastro", ((string)(null)), table2, "E ");
 #line hidden
-#line 26
+#line 28
       testRunner.Then("Entao o usuario e informado que ja existe um registro cadastrado para esse e-mail" +
                         "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
@@ -182,11 +192,14 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("03) Realizar cadastro")]
+        [NUnit.Framework.CategoryAttribute("tc:56")]
         public virtual void _03RealizarCadastro()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03) Realizar cadastro", null, ((string[])(null)));
-#line 28
+            string[] tagsOfScenario = new string[] {
+                    "tc:56"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03) Realizar cadastro", null, new string[] {
+                        "tc:56"});
+#line 31
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -209,10 +222,10 @@ this.FeatureBackground();
 #line 9
 this.FeatureBackground();
 #line hidden
-#line 29
+#line 32
       testRunner.And("E que o usuario informe os dados necessarios para cadastro", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 30
+#line 33
       testRunner.Then("Entao o usuario e informado que foi realizado o cadastro com sucesso", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }

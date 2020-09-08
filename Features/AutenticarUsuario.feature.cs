@@ -90,14 +90,21 @@ Seguindo as seguintes restrições:
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("01) Validar campos obrigatorios")]
+        [NUnit.Framework.CategoryAttribute("tc:51")]
         [NUnit.Framework.TestCaseAttribute("", "", null)]
         [NUnit.Framework.TestCaseAttribute("", "123456", null)]
         [NUnit.Framework.TestCaseAttribute("teste@naocadastrado.com", "", null)]
         public virtual void _01ValidarCamposObrigatorios(string email, string senha, string[] exampleTags)
         {
-            string[] tagsOfScenario = exampleTags;
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01) Validar campos obrigatorios", null, exampleTags);
-#line 12
+            string[] @__tags = new string[] {
+                    "tc:51"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            string[] tagsOfScenario = @__tags;
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01) Validar campos obrigatorios", null, @__tags);
+#line 13
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -120,10 +127,10 @@ Seguindo as seguintes restrições:
 #line 9
 this.FeatureBackground();
 #line hidden
-#line 13
+#line 14
       testRunner.And(string.Format("E que o usuario informe os dados necessarios para autenticacao \"{0}\" \"{1}\"", email, senha), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 14
+#line 15
       testRunner.Then(string.Format("Entao o usuario e informado que campos obrigatorios nao foram preenchidos \"{0}\" \"" +
                             "{1}\"", email, senha), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
@@ -133,11 +140,14 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("02) Validar login invalido")]
+        [NUnit.Framework.CategoryAttribute("tc:52")]
         public virtual void _02ValidarLoginInvalido()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02) Validar login invalido", null, ((string[])(null)));
-#line 21
+            string[] tagsOfScenario = new string[] {
+                    "tc:52"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02) Validar login invalido", null, new string[] {
+                        "tc:52"});
+#line 23
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -166,10 +176,10 @@ this.FeatureBackground();
                 table1.AddRow(new string[] {
                             "teste@logininvalido.com",
                             "123456"});
-#line 22
+#line 24
       testRunner.And("E que o usuario informe os dados necessarios para autenticacao", ((string)(null)), table1, "E ");
 #line hidden
-#line 25
+#line 27
       testRunner.Then("Entao o usuario e informado que nao foi realizada autenticacao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }
@@ -178,11 +188,14 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("03) Realizar login")]
+        [NUnit.Framework.CategoryAttribute("tc:53")]
         public virtual void _03RealizarLogin()
         {
-            string[] tagsOfScenario = ((string[])(null));
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03) Realizar login", null, ((string[])(null)));
-#line 27
+            string[] tagsOfScenario = new string[] {
+                    "tc:53"};
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03) Realizar login", null, new string[] {
+                        "tc:53"});
+#line 30
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -205,10 +218,10 @@ this.FeatureBackground();
 #line 9
 this.FeatureBackground();
 #line hidden
-#line 28
+#line 31
       testRunner.And("E que o usuario informe os dados necessarios para autenticacao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 29
+#line 32
       testRunner.Then("Entao o usuario e informado que foi realizada a autenticacao com sucesso", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }
