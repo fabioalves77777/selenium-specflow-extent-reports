@@ -9,7 +9,7 @@ Seguindo as seguintes restrições:
 Contexto: Acessa a pagina de cadastro
       Dado Dado que o usuario queira criar uma conta
    
-@tc:54
+@tc:78
    	Esquema do Cenario: 01) Validar campos obrigatorios
    	  E E que o usuario informe os dados necessarios para cadastro "<nome>" "<email>" "<senha>" 
       Entao Entao o usuario e informado que campos obrigatorios do cadastro nao foram preenchidos "<nome>" "<email>" "<senha>" 
@@ -20,14 +20,14 @@ Contexto: Acessa a pagina de cadastro
       | naocadastrado |                         | 123456 |
 	  | naocadastrado | teste@naocadastrado.com |        |
    
-@tc:55
+@tc:79
     Cenario: 02) Validar e-mail ja cadastrado
       E E que o usuario informe os dados necessarios para cadastro 
       | nome        | email                       | senha  |
       | Fabio Alves | fabioaraujo.alves@email.com | 123456 |
       Entao Entao o usuario e informado que ja existe um registro cadastrado para esse e-mail
     
-@tc:56
+@tc:80
    	Cenario: 03) Realizar cadastro
    	  E E que o usuario informe os dados necessarios para cadastro
       Entao Entao o usuario e informado que foi realizado o cadastro com sucesso

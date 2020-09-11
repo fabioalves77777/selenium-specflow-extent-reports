@@ -90,7 +90,7 @@ Seguindo as seguintes restrições:
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("01) Validar campos obrigatorios")]
-        [NUnit.Framework.CategoryAttribute("tc:54")]
+        [NUnit.Framework.CategoryAttribute("tc:78")]
         [NUnit.Framework.TestCaseAttribute("", "", "", null)]
         [NUnit.Framework.TestCaseAttribute("", "teste@naocadastrado.com", "123456", null)]
         [NUnit.Framework.TestCaseAttribute("naocadastrado", "", "123456", null)]
@@ -98,7 +98,7 @@ Seguindo as seguintes restrições:
         public virtual void _01ValidarCamposObrigatorios(string nome, string email, string senha, string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "tc:54"};
+                    "tc:78"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -141,13 +141,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("02) Validar e-mail ja cadastrado")]
-        [NUnit.Framework.CategoryAttribute("tc:55")]
+        [NUnit.Framework.CategoryAttribute("tc:79")]
         public virtual void _02ValidarE_MailJaCadastrado()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:55"};
+                    "tc:79"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02) Validar e-mail ja cadastrado", null, new string[] {
-                        "tc:55"});
+                        "tc:79"});
 #line 24
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -192,13 +192,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("03) Realizar cadastro")]
-        [NUnit.Framework.CategoryAttribute("tc:56")]
+        [NUnit.Framework.CategoryAttribute("tc:80")]
         public virtual void _03RealizarCadastro()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:56"};
+                    "tc:80"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03) Realizar cadastro", null, new string[] {
-                        "tc:56"});
+                        "tc:80"});
 #line 31
     this.ScenarioInitialize(scenarioInfo);
 #line hidden

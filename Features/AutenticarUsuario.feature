@@ -9,7 +9,7 @@ Seguindo as seguintes restrições:
 Contexto: Acessa a pagina de login
       Dado Dado que o usuario queira realizar autenticacao
 
-@tc:51
+@tc:75
    	Esquema do Cenario: 01) Validar campos obrigatorios
    	  E E que o usuario informe os dados necessarios para autenticacao "<email>" "<senha>" 
       Entao Entao o usuario e informado que campos obrigatorios nao foram preenchidos "<email>" "<senha>" 
@@ -18,15 +18,15 @@ Contexto: Acessa a pagina de login
       |                         |        |
       |                         | 123456 |
 	  | teste@naocadastrado.com |        |
-   
-@tc:52
+
+@tc:76
     Cenario: 02) Validar login invalido
       E E que o usuario informe os dados necessarios para autenticacao 
       | email                   | senha  |
       | teste@logininvalido.com | 123456 |
       Entao Entao o usuario e informado que nao foi realizada autenticacao
-    
-@tc:53
+ 
+@tc:77
    	Cenario: 03) Realizar login
    	  E E que o usuario informe os dados necessarios para autenticacao
       Entao Entao o usuario e informado que foi realizada a autenticacao com sucesso

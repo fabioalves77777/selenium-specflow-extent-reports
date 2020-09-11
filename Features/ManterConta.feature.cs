@@ -90,13 +90,13 @@ Seguindo as seguintes restrições:
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("01) Adicionar Conta - Validar campos obrigatorios")]
-        [NUnit.Framework.CategoryAttribute("tc:57")]
+        [NUnit.Framework.CategoryAttribute("tc:81")]
         public virtual void _01AdicionarConta_ValidarCamposObrigatorios()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:57"};
+                    "tc:81"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01) Adicionar Conta - Validar campos obrigatorios", null, new string[] {
-                        "tc:57"});
+                        "tc:81"});
 #line 13
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -140,13 +140,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("02) Adicionar Conta - Validar conta ja cadastrada")]
-        [NUnit.Framework.CategoryAttribute("tc:58")]
+        [NUnit.Framework.CategoryAttribute("tc:82")]
         public virtual void _02AdicionarConta_ValidarContaJaCadastrada()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:58"};
+                    "tc:82"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02) Adicionar Conta - Validar conta ja cadastrada", null, new string[] {
-                        "tc:58"});
+                        "tc:82"});
 #line 21
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -190,13 +190,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("03) Adicionar conta")]
-        [NUnit.Framework.CategoryAttribute("tc:59")]
+        [NUnit.Framework.CategoryAttribute("tc:83")]
         public virtual void _03AdicionarConta()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:59"};
+                    "tc:83"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03) Adicionar conta", null, new string[] {
-                        "tc:59"});
+                        "tc:83"});
 #line 29
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -235,13 +235,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("04) Alterar Conta - Validar campos obrigatorios")]
-        [NUnit.Framework.CategoryAttribute("tc:60")]
+        [NUnit.Framework.CategoryAttribute("tc:84")]
         public virtual void _04AlterarConta_ValidarCamposObrigatorios()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:60"};
+                    "tc:84"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("04) Alterar Conta - Validar campos obrigatorios", null, new string[] {
-                        "tc:60"});
+                        "tc:84"});
 #line 35
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -288,13 +288,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("05) Alterar Conta - Validar conta ja cadastrada")]
-        [NUnit.Framework.CategoryAttribute("tc:61")]
+        [NUnit.Framework.CategoryAttribute("tc:85")]
         public virtual void _05AlterarConta_ValidarContaJaCadastrada()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:61"};
+                    "tc:85"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("05) Alterar Conta - Validar conta ja cadastrada", null, new string[] {
-                        "tc:61"});
+                        "tc:85"});
 #line 44
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -341,13 +341,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("06) Alterar conta")]
-        [NUnit.Framework.CategoryAttribute("tc:62")]
+        [NUnit.Framework.CategoryAttribute("tc:86")]
         public virtual void _06AlterarConta()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:62"};
+                    "tc:86"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("06) Alterar conta", null, new string[] {
-                        "tc:62"});
+                        "tc:86"});
 #line 53
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -389,13 +389,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("07) Excluir conta - Validar exclusao de conta com movimentacao")]
-        [NUnit.Framework.CategoryAttribute("tc:63")]
+        [NUnit.Framework.CategoryAttribute("tc:87")]
         public virtual void _07ExcluirConta_ValidarExclusaoDeContaComMovimentacao()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:63"};
+                    "tc:87"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("07) Excluir conta - Validar exclusao de conta com movimentacao", null, new string[] {
-                        "tc:63"});
+                        "tc:87"});
 #line 60
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -434,13 +434,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("08) Excluir conta")]
-        [NUnit.Framework.CategoryAttribute("tc:64")]
+        [NUnit.Framework.CategoryAttribute("tc:88")]
         public virtual void _08ExcluirConta()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:64"};
+                    "tc:88"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("08) Excluir conta", null, new string[] {
-                        "tc:64"});
+                        "tc:88"});
 #line 66
  this.ScenarioInitialize(scenarioInfo);
 #line hidden

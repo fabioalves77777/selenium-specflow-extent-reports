@@ -25,6 +25,8 @@ namespace Selenium.Specflow.Extent.Reports.Support
 
         private static readonly string PathReport = Utilitario.CaminhoProjeto + "\\TestResults\\Report\\ExtentReport.html";
 
+
+
         public Hooks(IObjectContainer objectContainer)
         {
             _objectContainer = objectContainer;

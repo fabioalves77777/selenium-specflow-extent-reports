@@ -90,14 +90,14 @@ Seguindo as seguintes restrições:
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("01) Validar campos obrigatorios")]
-        [NUnit.Framework.CategoryAttribute("tc:51")]
+        [NUnit.Framework.CategoryAttribute("tc:75")]
         [NUnit.Framework.TestCaseAttribute("", "", null)]
         [NUnit.Framework.TestCaseAttribute("", "123456", null)]
         [NUnit.Framework.TestCaseAttribute("teste@naocadastrado.com", "", null)]
         public virtual void _01ValidarCamposObrigatorios(string email, string senha, string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "tc:51"};
+                    "tc:75"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
@@ -140,13 +140,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("02) Validar login invalido")]
-        [NUnit.Framework.CategoryAttribute("tc:52")]
+        [NUnit.Framework.CategoryAttribute("tc:76")]
         public virtual void _02ValidarLoginInvalido()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:52"};
+                    "tc:76"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02) Validar login invalido", null, new string[] {
-                        "tc:52"});
+                        "tc:76"});
 #line 23
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -188,13 +188,13 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("03) Realizar login")]
-        [NUnit.Framework.CategoryAttribute("tc:53")]
+        [NUnit.Framework.CategoryAttribute("tc:77")]
         public virtual void _03RealizarLogin()
         {
             string[] tagsOfScenario = new string[] {
-                    "tc:53"};
+                    "tc:77"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03) Realizar login", null, new string[] {
-                        "tc:53"});
+                        "tc:77"});
 #line 30
     this.ScenarioInitialize(scenarioInfo);
 #line hidden

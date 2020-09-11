@@ -2,6 +2,7 @@
 using Selenium.Specflow.Extent.Reports.PageObjects;
 using Selenium.Specflow.Extent.Reports.Resources;
 using Selenium.Specflow.Extent.Reports.Utility;
+using System.Data;
 using TechTalk.SpecFlow;
 
 namespace Selenium.Specflow.Extent.Reports.StepDefinitions
@@ -11,6 +12,8 @@ namespace Selenium.Specflow.Extent.Reports.StepDefinitions
     {
         public PaginaLogin Login;
         public Usuario user = new Usuario();
+        readonly AzureParams azureParams = new AzureParams();
+        DataRowCollection data;
 
         public AutenticarUsuarioSteps(IWebDriver driver) => Login = new PaginaLogin(driver);
 
@@ -29,7 +32,8 @@ namespace Selenium.Specflow.Extent.Reports.StepDefinitions
         [Given(@"E que o usuario informe os dados necessarios para autenticacao")]
         public void DadoEQueOUsuarioInformeOsDadosNecessariosParaAutenticacao(Table table)
         {
-            Login.RealizarLogin(table.Rows[0]["email"], table.Rows[0]["senha"]);
+            data = azureParams.GetParams("76");
+            Login.RealizarLogin(data[0]["email"].ToString(), data[0]["senha"].ToString());
         }
         
         [Given(@"E que o usuario informe os dados necessarios para autenticacao")]
@@ -55,5 +59,6 @@ namespace Selenium.Specflow.Extent.Reports.StepDefinitions
         {
             Login.VerificarUsuarioAutenticadoComSucesso();
         }
+
     }
 }
