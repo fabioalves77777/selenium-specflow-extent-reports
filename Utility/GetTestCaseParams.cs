@@ -22,7 +22,7 @@ namespace Selenium.Specflow.Extent.Reports.Utility
         {
             try
             {
-                string url = this.VstsURI + "/DefaultCollection/_apis/wit/workitems?ids=" + workitemID + "&api-version=1.0";
+                string url = VstsURI + "/DefaultCollection/_apis/wit/workitems?ids=" + workitemID + "&api-version=1.0";
 
                 using (HttpClient client = new HttpClient())
                 {
