@@ -451,7 +451,6 @@ C:\Users\fabio.alves\Documents\Desenvolvimento\selenium-specflow-extent-reports\
 C:\Users\fabio.alves\Documents\Desenvolvimento\selenium-specflow-extent-reports\bin\Debug\Utf8Json.xml
 C:\Users\fabio.alves\Documents\Desenvolvimento\selenium-specflow-extent-reports\bin\Debug\WebDriver.xml
 C:\Users\fabio.alves\Documents\Desenvolvimento\selenium-specflow-extent-reports\bin\Debug\WebDriver.Support.xml
-C:\Users\fabio.alves\Documents\Desenvolvimento\selenium-specflow-extent-reports\obj\Debug\Selenium.Specflow.Extent.Reports.csprojAssemblyReference.cache
 C:\Users\fabio.alves\Documents\Desenvolvimento\selenium-specflow-extent-reports\obj\Debug\Selenium.Specflow.Extent.Reports.dll.config
 C:\Users\fabio.alves\Documents\Desenvolvimento\selenium-specflow-extent-reports\obj\Debug\Selenium.Specflow.Extent.Reports.csproj.CoreCompileInputs.cache
 C:\Users\fabio.alves\Documents\Desenvolvimento\selenium-specflow-extent-reports\obj\Debug\Selenium.Specflow.Extent.Reports.csproj.CopyComplete
